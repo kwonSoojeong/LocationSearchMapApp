@@ -1,4 +1,4 @@
-package com.crystal.locationsearchmapapp
+package com.crystal.locationsearchmapapp.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

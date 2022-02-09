@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.crystal.locationsearchmapapp.databinding.ViewholderSearchTimeBinding
+import com.crystal.locationsearchmapapp.model.SearchResultEntity
 
 class SearchRecyclerAdapter(private val searchResultClickListener: (SearchResultEntity) -> Unit) :
     ListAdapter<SearchResultEntity, SearchRecyclerAdapter.ViewHolder>(diffUtil) {
